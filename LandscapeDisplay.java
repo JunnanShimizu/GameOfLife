@@ -136,6 +136,7 @@ public class LandscapeDisplay
         this.win.repaint();
     }
 
+    // used to test LandscapeDisplay()
     public static void main(String[] args) throws InterruptedException {
         Landscape scape = new Landscape(100,100);
         Random gen = new Random();

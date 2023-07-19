@@ -27,7 +27,7 @@ public class Landscape {
         }
     }
 
-    //constructor to create a landscape object with custom size of rows and columns
+    // constructor to create a landscape object with custom size of rows and columns
     public Landscape(int rows, int columns){
         this.grid = new Cell[rows][columns];
         this.rows = rows;
@@ -40,17 +40,17 @@ public class Landscape {
         }
     }
 
-    //this will completely wipe the grid
+    // this will completely wipe the grid
     public void reset(){
         this.grid = new Cell[this.rows][this.columns];
     }
 
-    //returns number of rows
+    // returns number of rows
     public int getRows(){
         return this.rows;
     }
 
-    //returns number of columns
+    // returns number of columns
     public int getColumns(){
         return this.columns;
     }
@@ -60,7 +60,7 @@ public class Landscape {
         return this.grid[row][column];
     }
 
-    //this will create a graphic that will show the cells and their interactions
+    // creates a graphic that will show the cells and their interactions
     public void draw(Graphics g, int gridScale){
         for(int x = 0; x < rows; x++){
             for(int y = 0; y < columns; y++){
@@ -69,7 +69,7 @@ public class Landscape {
         }
     }
 
-    //this will return a string that represents the grid
+    // returns a string that represents the grid
     public String toString(){
         String result = "";
 
@@ -83,7 +83,7 @@ public class Landscape {
         return result;
     }
 
-    //returns an arrayList of the 8 cells surrounding a specific cell
+    // returns an arrayList of the 8 cells surrounding a specific cell
     public ArrayList<Cell> getNeighbors(int row, int column){
         this.getNeighbors = new ArrayList<Cell>();
 
@@ -102,7 +102,7 @@ public class Landscape {
         return this.getNeighbors;
     }
 
-    //advances all the cells of grid at once
+    // advances all the cells of grid at once
     public void advance(){
         Cell[][] temp = new Cell[rows][columns];
         for(int x = 0; x < rows; x++){
@@ -120,7 +120,7 @@ public class Landscape {
         this.grid = temp;
     }
 
-    //similar to advance() however the temp grid is set to the reference of the cell object in the same position of the original grid
+    // similar to advance() however the temp grid is set to the reference of the cell object in the same position of the original grid
     public void virusAdvance(){
         Cell[][] temp = new Cell[rows][columns];
         for(int x = 0; x < rows; x++){
@@ -138,7 +138,7 @@ public class Landscape {
         this.grid = temp;
     }
 
-    //main method to test all the fields, constructors, and methods
+    // main method to test all the fields, constructors, and methods
     public static void main(String[] args){
         Landscape landscape1 = new Landscape(10, 10);
         System.out.println("Rows: " + landscape1.getRows());

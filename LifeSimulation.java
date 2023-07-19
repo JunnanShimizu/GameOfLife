@@ -7,7 +7,7 @@
 import java.util.Random;
 
 public class LifeSimulation {
-    //similar to the LandscapeDisplay main method, however calls the advance method, repaint method, and sleep method
+    // similar to the LandscapeDisplay main method, however calls the advance method, repaint method, and sleep method
     public static void main(String[] args) throws InterruptedException {
        Landscape scape = new Landscape(100,100);
         Random gen = new Random();

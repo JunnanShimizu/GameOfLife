@@ -7,7 +7,7 @@
 import java.util.Random;
 
 public class VirusSimulation {
-    //similar to the main method in LifeSimulation, however calls the virusAdvance() method rather than the advance method
+    // similar to the main method in LifeSimulation, however calls the virusAdvance() method rather than the advance method
     public static void main(String[] args) throws InterruptedException {
         Landscape scape = new Landscape(100,100);
         Random gen = new Random();
