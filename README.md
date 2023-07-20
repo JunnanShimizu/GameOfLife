@@ -1,5 +1,5 @@
 # GameOfLife
-### Conway's Game of Life implementation. A visual representation of cellular automata utilizing 2D arrays. 
+#### Conway's Game of Life implementation. A visual representation of cellular automata utilizing 2D arrays. 
 
 To run the LifeSimulation, run in the terminal:
 ```
