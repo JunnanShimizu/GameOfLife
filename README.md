@@ -17,7 +17,7 @@ java LifeSimulation.java
 
 Examples:
 
-<img src="life_simulation_1.png" width="500" height="500" /> <img src="life_simulation_2.png" width="500" height="500" />
+<img src="life_simulation_1.png" width="400" height="400" /> <img src="life_simulation_2.png" width="400" height="400" />
 
 
 
@@ -31,4 +31,4 @@ java VirusSimulation.java
 
 Examples:
 
-<img src="virus_simulation_1.png" width="500" height="500" /> <img src="virus_simulation_2.png" width="500" height="500" />
+<img src="virus_simulation_1.png" width="400" height="400" /> <img src="virus_simulation_2.png" width="400" height="400" />
