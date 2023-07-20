@@ -22,7 +22,6 @@ Examples:
 
 &nbsp;
 
-&nbsp;
 
 To run the VirusSimulation, in the same directory as above (GameOfLife), run in the terminal: 
 ```
