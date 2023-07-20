@@ -1,7 +1,6 @@
 # GameOfLife
 #### Conway's Game of Life implementation. A visual representation of cellular automata utilizing 2D arrays. 
-&ensp;
-&ensp;
+<br/><br/>
 To run the LifeSimulation, run in the terminal:
 ```
 git clone https://github.com/JunnanShimizu/GameOfLife.git
