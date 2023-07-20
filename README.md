@@ -17,10 +17,10 @@ java LifeSimulation.java
 
 Examples:
 
-![](life_simulation_1.png)
-![](life_simulation_2.png)
-
 <img src="life_simulation_1.png" width="200" height="200" />
+<img src="life_simulation_2.png" width="200" height="200" />
+
+
 
 To run the VirusSimulation, in the same directory as above (GameOfLife), run in the terminal: 
 ```
