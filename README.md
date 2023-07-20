@@ -17,8 +17,7 @@ java LifeSimulation.java
 
 Examples:
 
-<img src="life_simulation_1.png" width="400" height="400" />
-<img src="life_simulation_2.png" width="400" height="400" />
+<img src="life_simulation_1.png" width="400" height="400" /> <img src="life_simulation_2.png" width="400" height="400" />
 
 
 
