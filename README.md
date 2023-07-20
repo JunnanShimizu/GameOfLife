@@ -31,5 +31,4 @@ java VirusSimulation.java
 
 Examples:
 
-![](virus_simulation_1.png)
-![](virus_simulation_2.png)
+<img src="virus_simulation_1.png" width="400" height="400" /> <img src="virus_simulation_2.png" width="400" height="400" />
